@@ -18,5 +18,28 @@
   "bugs": {
     "url": "https://github.com/amd711/project/issues"
   },
-  "homepage": "https://github.com/amd711/project#readme"
+  "homepage": "https://github.com/amd711/project#readme",
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "nodemon": "^1.18.4",
+    "supertest": "^3.3.0",
+    "tap-spec": "^5.0.0",
+    "istanbul": "^0.4.5",
+    "tape": "^4.9.1"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "env2": "^2.2.2",
+    "path": "^0.12.7",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.12",
+    "jsonwebtoken": "^8.3.0",
+    "pg": "^7.4.3",
+    "request": "^2.88.0"
+  }
 }
